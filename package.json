@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "name": "pintura-example-vue-3",
+  "version": "0.0.0",
+  "author": "Rik Schennink at PQINA",
+  "license": "https://pqina.nl/pintura/license/",
+  "homepage": "https://pqina.nl/pintura/",
+  "description": "A Pintura Vue 3 Example Project",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@pqina/filepond-plugin-image-editor": "^9.1.2",
+    "@pqina/pintura": "^8.88.0",
+    "@pqina/vue-pintura": "^9.0.1",
+    "filepond": "^4.30.4",
+    "filepond-plugin-file-poster": "^2.5.1",
+    "vue": "^3.2.47",
+    "vue-filepond": "^7.0.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.1",
+    "vite": "^4.3.4"
+  }
+}
